@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="font-semibold">Contato</div>
             <div className="mt-3 grid gap-2 text-black/60">
               <div>São Paulo • SP</div>
-              <div>WhatsApp: (11) 90000-0000</div>
+              <div>WhatsApp: (11) 97811-5979</div>
               <div>Email: contato@tsa.com.br</div>
             </div>
           </div>
