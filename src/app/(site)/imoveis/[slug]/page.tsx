@@ -30,9 +30,11 @@ export default async function PropertyDetail({
               <div className="text-xs font-semibold text-[color:var(--tsa-navy)]">
                 {p.purpose} • {p.neighborhood} • {p.city}
               </div>
+
               <h1 className="mt-2 text-3xl font-semibold tracking-tight">
                 {p.title}
               </h1>
+
               <div className="mt-4 text-2xl font-bold text-[color:var(--tsa-navy)]">
                 {p.priceLabel}
               </div>
@@ -63,7 +65,7 @@ export default async function PropertyDetail({
                 </ul>
               </div>
 
-              <div className="mt-8 flex flex-col sm:flex-row gap-3">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button href="/contato" variant="gold">
                   Agendar visita
                 </Button>
@@ -73,7 +75,7 @@ export default async function PropertyDetail({
               </div>
 
               <div className="mt-6 text-xs text-black/45">
-                * Conteúdo de exemplo. Integre com seu CRM para captar lead
+                * Conteudo de exemplo. Integre com seu CRM para captar lead
                 automaticamente.
               </div>
             </div>
@@ -83,40 +85,15 @@ export default async function PropertyDetail({
 
       <Section
         title="Quer valorizar este ativo?"
-        subtitle="A TSA pode projetar, reformar e gerir o imóvel para máxima liquidez e retorno."
+        subtitle="A TSA pode projetar, reformar e gerir o imovel para maxima liquidez e retorno."
       >
-        <div className="flex gap-3 flex-col sm:flex-row">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <Button href="/reforma" variant="navy">
-            Reforma & Valorização
+            Reforma & Valorizacao
           </Button>
           <Button href="/gestao" variant="ghost">
-            Gestão de Ativos
+            Gestao de Ativos
           </Button>
-        </div>
-      </Section>
-    </div>
-  );
-}
-                <Button href="/contato" variant="navy">
-                  Falar no WhatsApp
-                </Button>
-              </div>
-
-              <div className="mt-6 text-xs text-black/45">
-                * Conteúdo de exemplo. Integre com seu CRM para captar lead automaticamente.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <Section
-        title="Quer valorizar este ativo?"
-        subtitle="A TSA pode projetar, reformar e gerir o imóvel para máxima liquidez e retorno."
-      >
-        <div className="flex gap-3 flex-col sm:flex-row">
-          <Button href="/reforma" variant="navy">Reforma & Valorização</Button>
-          <Button href="/gestao" variant="ghost">Gestão de Ativos</Button>
         </div>
       </Section>
     </div>
