@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --tsa-navy: #0D2B45;
+  --tsa-gold: #C9A45C;
+  --tsa-ink:  #0B1220;
+}
+
+html, body { height: 100%; }
+
+body{
+  color: #0b1220;
+  background: #ffffff;
+}
+
+::selection{
+  background: color-mix(in srgb, var(--tsa-gold) 40%, transparent);
+}
