@@ -17,4 +17,36 @@ body{
 
 ::selection{
   background: color-mix(in srgb, var(--tsa-gold) 40%, transparent);
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --tsa-navy: #0D2B45;
+  --tsa-gold: #C9A45C;
+  --tsa-ink:  #0B1220;
+
+  /* extras “startup” */
+  --tsa-bg: #0b1220;          /* fundo escuro */
+  --tsa-surface: #0f1a2a;     /* cards no dark */
+  --tsa-border: rgba(255,255,255,.10);
+  --tsa-muted: rgba(255,255,255,.70);
+  --tsa-ring: rgba(201,164,92,.45);
+  --tsa-radius: 18px;
+}
+
+html, body { height: 100%; }
+
+body{
+  color: #0b1220;
+  background: #ffffff;
+  font-family: var(--font-sans), system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+h1,h2,h3{
+  font-family: var(--font-display), var(--font-sans), system-ui;
+}
+
+::selection{
+  background: color-mix(in srgb, var(--tsa-gold) 40%, transparent);
 }
